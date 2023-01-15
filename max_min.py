@@ -10,3 +10,4 @@ for i in range(1, 5):
     if Min > s[i]:
         Min = s[i]
 print(f"最高分是：{Max}，最低分是：{Min}")
+print(max(s), min(s))

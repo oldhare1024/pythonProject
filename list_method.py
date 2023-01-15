@@ -1,0 +1,12 @@
+num = [11, 32, 41, 23, 241, 38]
+num.sort()
+print(num)
+print(num.index(32))
+print(num[5])
+num.insert(1, 66)
+num.insert(7, 777)
+num.insert(-8, 0)
+num.pop(0)
+print(num)
+num.remove(66)
+print(num)
