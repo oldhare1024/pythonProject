@@ -11,3 +11,5 @@ for i, j in d.items():  # 返回字典中所有键值对
     print(i, j)
 for i in d.keys():  # 返回字典中所有键
     print(i)
+di = {i: i ** 3 for i in range(5)}
+print(di)
