@@ -11,3 +11,5 @@ elif int(b) == 0:
     print('false')
 else:
     print('no')
+a = 0
+print(int(not a))
