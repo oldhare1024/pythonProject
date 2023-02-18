@@ -14,7 +14,7 @@ def get_img(url):
     content = response.content.decode('utf-8')
     img_urls = re.findall('"thumbURL":"(.*?)"', content, re.S)
     i = 1
-    path = 'D:\\python\\pythonProject\\demo1'
+    path = 'D:\\lisa_imges'
     os.mkdir(path)
     for img_urls in img_urls:
         response = requests.get(img_urls, headers=head)
@@ -22,6 +22,9 @@ def get_img(url):
         with open(path + '\{}.jpg'.format(i), 'wb') as f:
             f.write(content)
         i += 1
+    print(f'下载已完成,一共{i}张图片保存在D盘lisa_image文件夹中')
 
-
+print("开始下载lisa照片...\n")
 get_img(url)
+input()
+input()
