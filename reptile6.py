@@ -1,6 +1,6 @@
-import urllib.request
-import urllib.parse
 import json
+import urllib.parse
+import urllib.request
 
 base_url = 'https://fanyi.baidu.com/sug'
 head = {

@@ -1,5 +1,5 @@
-import urllib.request
 import urllib.parse
+import urllib.request
 
 data = {
     'wd': '周冬雨',

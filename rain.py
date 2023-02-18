@@ -1,5 +1,6 @@
-import numpy as np
 import random as r
+
+import numpy as np
 
 rain = r.sample(range(1, 48), 47)
 a = rain[0:7]

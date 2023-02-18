@@ -1,5 +1,4 @@
 import json
-import json as j
 
 fp = open('demo/test.txt', 'w')
 namel = ['lichan', 'yupan','xiawenxing']
