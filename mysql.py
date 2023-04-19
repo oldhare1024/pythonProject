@@ -1,6 +1,7 @@
-import MySQLdb
 from tkinter import *
 from tkinter import messagebox
+
+import MySQLdb
 
 
 # 连接数据库

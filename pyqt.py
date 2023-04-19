@@ -1,8 +1,10 @@
 import sys
+
 # PyQt5中使用的基本控件都在PyQt5.QtWidgets模块中
 from PyQt5.QtWidgets import QApplication, QMainWindow
 # 导入designer工具生成的login模块
 from learning.login import Ui_login
+
 
 class MyMainForm(QMainWindow, Ui_login):
     def __init__(self, parent=None):

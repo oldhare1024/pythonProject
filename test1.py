@@ -1,5 +1,6 @@
 from itertools import permutations
 
+
 def bubble_sort(s):
     s = list(s)
     n = len(s)
@@ -10,6 +11,7 @@ def bubble_sort(s):
                 s[j], s[j + 1] = s[j + 1], s[j]
                 cnt += 1
     return cnt
+
 
 v = int(input())
 ans = None

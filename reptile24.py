@@ -1,7 +1,7 @@
 # encoding:utf-8
-import urllib.request
-import urllib.parse
 import re
+import urllib.parse
+import urllib.request
 
 i = 0
 # url='http://store.steampowered.com/search/?sort_by=&sort_order=0&category1=998%2C996&special_categories=&filter=topsellers&page=1'

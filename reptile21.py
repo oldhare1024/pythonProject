@@ -1,8 +1,7 @@
-import urllib.request
-from urllib.parse import quote
 import webbrowser
+from urllib.parse import quote
+
 import easygui
-import PyQt5
 
 
 def search_url(str1, str2, str3, str4):

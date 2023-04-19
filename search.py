@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
-import sys
 import re
-import urllib.request
-from bs4 import BeautifulSoup
+import sys
 import urllib.parse
+import urllib.request
+
 from PyQt5.QtWidgets import (QPushButton, QWidget, QLabel, QLineEdit, QTextEdit, QGridLayout, QApplication)
+from bs4 import BeautifulSoup
 
 
 class Example(QWidget):

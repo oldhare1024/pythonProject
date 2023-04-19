@@ -1,11 +1,12 @@
 # 导入request
-import requests
 # 导入CSV我们到时要保存为csv
 import csv
-# 导入BeautifulSoup
-from bs4 import BeautifulSoup
 # 导入正规表达，这里是用来让我们的文字更加准确
 import re
+
+import requests
+# 导入BeautifulSoup
+from bs4 import BeautifulSoup
 
 # 我们的个人电脑信息
 user_agent = 'Mozilla/5.0(windows NT 10.0;win 64;x64)\AppleWekit/537.36(KHTML,like Gecko)Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063'

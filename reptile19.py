@@ -1,4 +1,3 @@
-import urllib.request
 from selenium import webdriver
 
 url = 'http://www.jd.com/'

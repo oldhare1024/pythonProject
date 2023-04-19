@@ -3,8 +3,9 @@
 # 在运行程序之前，需要先安装requests、beautifulsoup4和sqlite3库，以及下载对应的WebDriver（如ChromeDriver）并添加到系统PATH中。程序运行后，会在当前目录下创建一个名为search.db的SQLite
 # 数据库文件，用于存储网页内容。用户输入关键字时，程序会检索数据库并返回与关键字匹配的页面标题、摘要和链接等信息。
 # 需要注意的是，为了遵守网络爬虫的规范，程序应该设置适当的抓取频率、使用User - Agent伪装成浏览器、避免频繁抓取同一页面等，以防止对被抓取网站造成不必要的负担和影响。
-import requests
 import sqlite3
+
+import requests
 from bs4 import BeautifulSoup
 
 
