@@ -1,22 +1,11 @@
 n, m = map(int, input().split())
-bao = []
-bao = input().split()
-All = [0] * n
-for i in range(len(bao)):
-    bao[i] = int(bao[i])
-# n个堡垒，列表存储能量值
+a = [0] + list(map(int, input().split()))  # 存储各堡垒能量
+# 从1开始
 for i in range(m):
     l, r = map(int, input().split())
-    for j in range(l - 1, r):
-        if All[j] == 1:
-            continue
-        else:
-            if bao[j] - 100 <= 0:
-                All[j] = 1
-                continue
-            else:
-                bao[j] -= (bao[j] // 10 + 100)
-            if bao[j] <= 0:
-                All[j] = 1
-
-print(sum(All))
+    a[l:r+1] = [x - (x // 10 + 100) for x in a[l:r+1]]
+ans = 0
+for i in range(1, n + 1):
+    if a[i] <= 0:
+        ans += 1
+print(ans)  
