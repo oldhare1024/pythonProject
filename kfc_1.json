@@ -1,1 +1,89 @@
-{"Table":[{"rowcount":195}],"Table1":[{"rownum":1,"storeName":"蛟桥","addressDetail":"人民路331号","pro":"24小时,Wi-Fi,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":2,"storeName":"永乐","addressDetail":"南长区大庄里535号1层","pro":"24小时,Wi-Fi,点唱机,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":3,"storeName":"新苏87926884","addressDetail":"太滆路17号87926884","pro":"24小时,Wi-Fi,点唱机,礼品卡,手机点餐","provinceName":"江苏省","cityName":"无锡市"},{"rownum":4,"storeName":"向阳","addressDetail":"南禅寺110号1、2层","pro":"Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":5,"storeName":"新五爱","addressDetail":"人民西路60、62号","pro":"24小时,Wi-Fi,点唱机,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":6,"storeName":"延陵","addressDetail":"延陵路528号","pro":"24小时,Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":7,"storeName":"百盛崇安寺","addressDetail":"崇安寺牌坊皇亭广场1003号","pro":"Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":8,"storeName":"天鹤","addressDetail":"时代超购物中心1F","pro":"Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":9,"storeName":"人民桥","addressDetail":"人民中路18号一层","pro":"Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":10,"storeName":"阳羡87058045","addressDetail":"宜兴阳羡东路大润发超一层 0510-87058045","pro":"24小时,Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"}]}
+{
+  "Table": [
+    {
+      "rowcount": 195
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 1,
+      "storeName": "蛟桥",
+      "addressDetail": "人民路331号",
+      "pro": "24小时,Wi-Fi,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 2,
+      "storeName": "永乐",
+      "addressDetail": "南长区大庄里535号1层",
+      "pro": "24小时,Wi-Fi,点唱机,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 3,
+      "storeName": "新苏87926884",
+      "addressDetail": "太滆路17号87926884",
+      "pro": "24小时,Wi-Fi,点唱机,礼品卡,手机点餐",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 4,
+      "storeName": "向阳",
+      "addressDetail": "南禅寺110号1、2层",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 5,
+      "storeName": "新五爱",
+      "addressDetail": "人民西路60、62号",
+      "pro": "24小时,Wi-Fi,点唱机,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 6,
+      "storeName": "延陵",
+      "addressDetail": "延陵路528号",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 7,
+      "storeName": "百盛崇安寺",
+      "addressDetail": "崇安寺牌坊皇亭广场1003号",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 8,
+      "storeName": "天鹤",
+      "addressDetail": "时代超购物中心1F",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 9,
+      "storeName": "人民桥",
+      "addressDetail": "人民中路18号一层",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 10,
+      "storeName": "阳羡87058045",
+      "addressDetail": "宜兴阳羡东路大润发超一层 0510-87058045",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-#题解一
+# 题解一
 S, n = input().split()
 n = int(n)
 h, m, s = map(int, S.split(':'))
@@ -32,7 +32,7 @@ print("%02d:" % h + "%02d:" % m + "%02d" % s)
 #     print(f'{h}:{m}:{s}')
 
 
-#题解二
+# 题解二
 # import datetime
 #
 # S, n = input().split()

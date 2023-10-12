@@ -21,6 +21,6 @@ for i in range(n):
     else:
         # print(max1, end=' ')
         s = s + str(max1) + ' '
-        #peofrd[j] = 0
+        # peofrd[j] = 0
 number = list(map(int, s.split()))
 print(" ".join(str(i) for i in number))

@@ -8,7 +8,7 @@
 #     b /= 2
 # print(ans)
 n, k = map(int, input().split())
-c = pow(10, 9)+7
+c = pow(10, 9) + 7
 n %= c
 ans = 1
 while k != 0:

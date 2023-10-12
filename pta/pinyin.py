@@ -1,6 +1,6 @@
 s = input()
 pinyin = {
-    '-':'fu',
+    '-': 'fu',
     '0': 'ling',
     '1': 'yi',
     '2': 'er',
@@ -12,5 +12,5 @@ pinyin = {
     '8': 'ba',
     '9': 'jiu'
 }
-a=[pinyin[x] for x in s]
+a = [pinyin[x] for x in s]
 print(' '.join(a))

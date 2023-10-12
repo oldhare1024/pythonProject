@@ -14,4 +14,3 @@ if N <= 4:
     print(1)
 else:
     print(young(N))
-

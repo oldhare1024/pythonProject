@@ -2,26 +2,27 @@ import random
 import turtle
 
 
-def love(x,y):#在(x,y)处画爱心lalala
-    lv=turtle.Turtle()
+def love(x, y):  # 在(x,y)处画爱心lalala
+    lv = turtle.Turtle()
 
     lv.hideturtle()
 
     lv.up()
 
-    lv.goto(x,y)#定位到(x,y)
+    lv.goto(x, y)  # 定位到(x,y)
 
-    def curvemove():#画圆弧
+    def curvemove():  # 画圆弧
         for i in range(20):
             lv.right(10)
             lv.forward(2)
-    lv.color('red','pink')
+
+    lv.color('red', 'pink')
 
     lv.speed(100)
 
     lv.pensize(1)
 
-    #开始画爱心lalala
+    # 开始画爱心lalala
 
     lv.down()
 
@@ -39,16 +40,16 @@ def love(x,y):#在(x,y)处画爱心lalala
 
     lv.forward(22)
 
-    lv.write("杨幂",font=("Arial",12,"normal"),align="center")#写上表白的人的名字
+    lv.write("杨幂", font=("Arial", 12, "normal"), align="center")  # 写上表白的人的名字
 
-    lv.left(140)#画完复位
+    lv.left(140)  # 画完复位
 
     lv.end_fill()
 
-def tree(branchLen,t):
-    if branchLen > 5:#剩余树枝太少要结束递归
-        if branchLen<20:
 
+def tree(branchLen, t):
+    if branchLen > 5:  # 剩余树枝太少要结束递归
+        if branchLen < 20:
             t.color("green")
 
             t.pensize(random.uniform((branchLen + 5) / 4 - 2, (branchLen + 6) / 4 + 5))
@@ -57,7 +58,7 @@ def tree(branchLen,t):
 
             t.forward(branchLen)
 
-            love(t.xcor(),t.ycor())#传输现在turtle的坐标
+            love(t.xcor(), t.ycor())  # 传输现在turtle的坐标
 
             t.up()
 
@@ -67,7 +68,7 @@ def tree(branchLen,t):
 
             return
 
-        t.pensize(random.uniform((branchLen+5)/4-2,(branchLen+6)/4+5))
+        t.pensize(random.uniform((branchLen + 5) / 4 - 2, (branchLen + 6) / 4 + 5))
 
         t.down()
 
@@ -75,21 +76,22 @@ def tree(branchLen,t):
 
         # 以下递归
 
-        ang=random.uniform(15,45)
+        ang = random.uniform(15, 45)
 
         t.right(ang)
 
-        tree(branchLen-random.uniform(12,16),t)#随机决定减小长度
+        tree(branchLen - random.uniform(12, 16), t)  # 随机决定减小长度
 
-        t.left(2*ang)
+        t.left(2 * ang)
 
-        tree(branchLen-random.uniform(12,16),t)#随机决定减小长度
+        tree(branchLen - random.uniform(12, 16), t)  # 随机决定减小长度
 
         t.right(ang)
 
         t.up()
 
         t.backward(branchLen)
+
 
 myWin = turtle.Screen()
 
@@ -113,10 +115,10 @@ t.pensize(32)
 
 t.forward(60)
 
-tree(100,t)
+tree(100, t)
 
 myWin.exitonclick()
-#2、画桃心
+# 2、画桃心
 # -*- coding:utf-8 -*-
 import turtle
 import time
@@ -194,7 +196,7 @@ if me != '':
 # 点击窗口关闭
 window = turtle.Screen()
 window.exitonclick()
-#3、一箭穿心
+# 3、一箭穿心
 import turtle
 
 

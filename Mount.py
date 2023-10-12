@@ -22,6 +22,6 @@
 sum = 0
 for i in range(10001, 1000000001, 2):  # start from smallest odd palindromic number with 5 digits
     if str(i)[::-1] == str(i):
-        if str(i**2)[::-1] == str(i**2):
+        if str(i ** 2)[::-1] == str(i ** 2):
             sum += 1
 print(sum)

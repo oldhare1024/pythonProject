@@ -1,1 +1,89 @@
-{"Table":[{"rowcount":195}],"Table1":[{"rownum":21,"storeName":"新广益","addressDetail":"广南路、广益路交叉口西南侧","pro":"24小时,Wi-Fi,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":22,"storeName":"凤翔","addressDetail":"凤翔路与江海路交叉口西南角","pro":"Wi-Fi,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":23,"storeName":"宜兴车站","addressDetail":"宜城镇氿滨北路320号","pro":"Wi-Fi,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":24,"storeName":"梁清  ","addressDetail":"梁清路600号华润万家大买场","pro":"24小时,Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":25,"storeName":"青祁","addressDetail":"蠡湖大润发超市一楼肯德基","pro":"Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":26,"storeName":"蠡溪","addressDetail":"蠡溪路与建筑路交叉口西北侧","pro":"Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":27,"storeName":"清扬","addressDetail":"南长区五星家园123号沃尔玛1楼","pro":"24小时,Wi-Fi,点唱机,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":28,"storeName":"新周（西大街）86979051","addressDetail":"周庄镇北新西路与环周西路交叉口金湾大厦","pro":"Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":29,"storeName":"华士—86211126","addressDetail":"华士镇和平弄2号1-3层","pro":"Wi-Fi,点唱机,店内参观,礼品卡","provinceName":"江苏省","cityName":"无锡市"},{"rownum":30,"storeName":"澄江福地肯德基","addressDetail":"澄江福地步行街2幢","pro":"Wi-Fi,点唱机,礼品卡","provinceName":"江苏省","cityName":"无锡市"}]}
+{
+  "Table": [
+    {
+      "rowcount": 195
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 21,
+      "storeName": "新广益",
+      "addressDetail": "广南路、广益路交叉口西南侧",
+      "pro": "24小时,Wi-Fi,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 22,
+      "storeName": "凤翔",
+      "addressDetail": "凤翔路与江海路交叉口西南角",
+      "pro": "Wi-Fi,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 23,
+      "storeName": "宜兴车站",
+      "addressDetail": "宜城镇氿滨北路320号",
+      "pro": "Wi-Fi,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 24,
+      "storeName": "梁清  ",
+      "addressDetail": "梁清路600号华润万家大买场",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 25,
+      "storeName": "青祁",
+      "addressDetail": "蠡湖大润发超市一楼肯德基",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 26,
+      "storeName": "蠡溪",
+      "addressDetail": "蠡溪路与建筑路交叉口西北侧",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 27,
+      "storeName": "清扬",
+      "addressDetail": "南长区五星家园123号沃尔玛1楼",
+      "pro": "24小时,Wi-Fi,点唱机,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 28,
+      "storeName": "新周（西大街）86979051",
+      "addressDetail": "周庄镇北新西路与环周西路交叉口金湾大厦",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 29,
+      "storeName": "华士—86211126",
+      "addressDetail": "华士镇和平弄2号1-3层",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    },
+    {
+      "rownum": 30,
+      "storeName": "澄江福地肯德基",
+      "addressDetail": "澄江福地步行街2幢",
+      "pro": "Wi-Fi,点唱机,礼品卡",
+      "provinceName": "江苏省",
+      "cityName": "无锡市"
+    }
+  ]
+}

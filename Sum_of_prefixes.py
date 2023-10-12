@@ -12,5 +12,5 @@ for i in range(1, len(arr)):
     sumarr.append(arr[i] + sumarr[i - 1])
 while m != 0:
     l, r = map(int, input().split())
-    print(get_sum(l-1, r-1))
+    print(get_sum(l - 1, r - 1))
     m -= 1

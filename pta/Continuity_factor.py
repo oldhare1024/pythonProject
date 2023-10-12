@@ -19,10 +19,10 @@ else:
     for k in range(2, int(N ** 0.5 + 1)):
         if N % k == 0:
             f.append(k)
-    for l in range(len(f)-1):
+    for l in range(len(f) - 1):
         if f[l + 1] - f[l] == 1:
             f2.append(f[l])
-        elif f[l] - f[l-1]==1:
+        elif f[l] - f[l - 1] == 1:
             f2.append(f[l])
         else:
             continue

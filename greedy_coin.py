@@ -18,4 +18,3 @@ for i in range(len(sta_nums) - 1):
         sta_nums[i], sta_nums[i + 1] = int(not sta_nums[i]), int(not sta_nums[i + 1])
         ant += 1
     print(ant)
-

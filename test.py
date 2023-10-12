@@ -1,4 +1,5 @@
 import turtle as t
+
 t.pensize(5)
 t.speed(10)
 t.hideturtle()

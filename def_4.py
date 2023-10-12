@@ -1,7 +1,7 @@
 def count_sort(arr):
-    maxi=max(arr)
-    mini=min(arr)
-    bucketlen = (maxi-mini) + 1  # 桶长度
+    maxi = max(arr)
+    mini = min(arr)
+    bucketlen = (maxi - mini) + 1  # 桶长度
     bucket = [0] * bucketlen  # 初始化创建长度为bucklen的列表
     sortedi = 0
     for i in range(len(arr)):
